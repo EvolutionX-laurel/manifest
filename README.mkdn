@@ -10,7 +10,7 @@ Evolution X
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Evolution-X/manifest -b elle
+repo init -u https://github.com/Evolution-laurel/manifest -b elle
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -24,7 +24,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch evolution_$device-userdebug
+$ lunch evolution_laurel_sprout-userdebug
 
 # Build the code
 $ mka bacon -jX
