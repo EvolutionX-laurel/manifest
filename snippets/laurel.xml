@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitlab"
+          fetch="http://gitlab.com/HemantSachdeva"
+          revision="elle" />
+
+  <remote name="HemantSachdeva"
+          fetch="https://github.com/HemantSachdeva"
+          revision="elle" />
+    
+  <remote name="laurel"
+          fetch="https://github.com/EvolutionX-laurel"
+          revision="elle" />
+
+  <!-- Device Specific trees -->
+  <project path="device/xiaomi/laurel_sprout" name="device_xiaomi_laurel_sprout" remote="laurel" />
+  <project path="device/xiaomi/laurel_sprout-images" name="device_xiaomi_laurel_sprout-images" remote="gitlab" />
+  <project path="kernel/xiaomi/laurel_sprout" name="kernel_xiaomi_laurel_sprout" remote="HemantSachdeva" />
+  <project path="vendor/xiaomi/laurel_sprout" name="vendor_xiaomi_laurel_sprout" remote="laurel" />
+</manifest>

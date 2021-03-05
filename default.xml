@@ -838,4 +838,6 @@
   <!-- LineageOS -->
   <include name="snippets/lineage.xml" />
 
+  <!-- Laurel_Sprout -->
+  <include name="snippets/laurel.xml" />
 </manifest>
